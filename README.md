@@ -71,7 +71,5 @@
 
 -	Using Moq to create mock data, that is virual data to test database in production .
 
-My Link:
-
-https://comp2084-assignment2-p1-bookstore.azurewebsites.net
+My Link: https://comp2084-assignment2-p1-bookstore.azurewebsites.net
 
