@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Bookstore";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+<p>@ViewBag.Message</p>
+<ul>
+    <li>@Html.ActionLink("Books", "Index", "Books")</li>
+    <li>@Html.ActionLink("Authors", "Index", "Authors")</li>
+    <li>@Html.ActionLink("Categories", "Index", "Categories")</li>
+    <li>@Html.ActionLink("Publishers", "Index", "Publishers")</li>
+</ul>
